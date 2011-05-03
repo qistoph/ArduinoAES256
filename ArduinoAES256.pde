@@ -29,10 +29,10 @@ void setup() {
   };
   DUMP("data: ", i, data, sizeof(data));
   
-  aes256_encrypt_ecb(&ctx, data);
+  aes256_encrypt_ecb(&ctxt, data);
   DUMP("data: ", i, data, sizeof(data));
   
-  aes256_done(&ctx);
+  aes256_done(&ctxt);
 }
 
 void loop() {
