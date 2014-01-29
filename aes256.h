@@ -18,7 +18,7 @@
 *   OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 */
 
-#include <WProgram.h>
+#include <Arduino.h>
 
 #ifdef __cplusplus
 extern "C" { 
